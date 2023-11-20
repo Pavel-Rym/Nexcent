@@ -1,0 +1,23 @@
+.prefooter {
+  background-color: var(--silver);
+}
+
+.prefooter__inner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 32px 0px;
+}
+
+.prefooter__header {
+  text-align: center;
+}
+
+.prefooter__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}

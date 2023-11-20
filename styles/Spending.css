@@ -1,0 +1,27 @@
+.spending__inner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 64px 0px;
+}
+
+.spending__inner-container-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.spending-subheader {
+  margin: 16px 0px 32px;
+}
+
+@media(min-width: 992px) {
+  .spending__inner-container {
+    flex-direction: row;
+  }
+  .spending__inner-container-info {
+    align-items: start;
+  }
+}
